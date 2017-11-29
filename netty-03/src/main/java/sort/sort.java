@@ -27,32 +27,6 @@ public class sort {
         return arr;
     }
 
-//    public static int[] quickSort(int[] arr, int begin, int end) {
-////        int tbegin = begin, tend = end;
-////        int tmp = arr[tbegin];
-////        while (tbegin < tend) {
-////
-////            while (arr[tend] >= tmp)
-////                tend--;
-////            if (tbegin < tend)
-////                arr[tbegin++] = arr[tend];
-////            while (arr[tbegin] <= tmp)
-////                tbegin++;
-////            if (tbegin < tend)
-////                arr[tend--] = arr[tbegin];
-//////            swap(arr, tbegin,tend);
-////
-//////            swap(arr,tend,tbegin);
-////        }
-////        tmp = arr[tbegin];
-//////        if (tmp > arr[begin])
-////            quickSort(arr, begin, tbegin - 1);
-//////        if (tmp < arr[end])
-////            quickSort(arr, tbegin + 1, end);
-////        return arr;
-//
-//    }
-
     static int[] quickSort(int n[], int left, int right) {
         int dp;
         if (left < right) {
