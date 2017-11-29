@@ -1,4 +1,4 @@
-package client;
+package netty03.client;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
